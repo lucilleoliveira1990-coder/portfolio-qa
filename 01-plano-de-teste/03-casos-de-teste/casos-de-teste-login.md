@@ -115,3 +115,48 @@ Resultado esperado: O sistema deve impedir o acesso e apresentar uma mensagem ad
 Resultado obtido: O sistema permitiu o login mesmo utilizando um e-mail que não está cadastrado na aplicação.
 
 Status: Falhou.
+
+
+## CT008 — E-mail com letras maiúsculas
+
+Passos:
+
+1. Informar um e-mail válido utilizando letras maiúsculas.
+2. Informar a senha correspondente.
+3. Clicar em Login.
+
+Resultado esperado: O sistema deve tratar o e-mail conforme a regra de autenticação definida.
+
+Resultado obtido: O sistema aceitou o e-mail com letra maiúscula e realizou o login com sucesso.
+
+Status: Passou.
+
+
+## CT009 — Botão Login
+
+Passos:
+
+1. Acessar a página de Login.
+2. Verificar o botão Login.
+3. Clicar no botão.
+
+Resultado esperado: O botão deve responder à ação do usuário e iniciar o processo de autenticação/validação.
+
+Resultado obtido: Ao clicar no botão "Entrar", o sistema respondeu à ação do usuário e iniciou o processo de validação das credenciais informadas.
+
+Status: Passou.
+
+
+## CT010 — Acesso após login
+
+Passos:
+
+1. Informar credenciais válidas.
+2. Clicar em Login.
+3. Observar a página apresentada após autenticação.
+
+Resultado esperado: O usuário deve ser direcionado para a área correspondente após o login.
+
+Resultado obtido: Após informar credenciais válidas e clicar no botão "Entrar", o sistema autenticou o usuário e permitiu o acesso à área autenticada da aplicação.
+
+Status: Passou.
