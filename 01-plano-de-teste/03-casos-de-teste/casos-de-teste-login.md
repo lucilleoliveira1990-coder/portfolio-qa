@@ -115,12 +115,3 @@ Resultado esperado: O sistema deve impedir o acesso e apresentar uma mensagem ad
 Resultado obtido: O sistema permitiu o login mesmo utilizando um e-mail que não está cadastrado na aplicação.
 
 Status: Falhou.
-
-
-## CT008 — E-mail com letras maiúsculas
-
-Resultado esperado: O sistema deve tratar o e-mail conforme a regra de autenticação definida.
-
-Resultado obtido: O sistema aceitou o e-mail com letra maiúscula e realizou o login com sucesso.
-
-Status: Passou.
