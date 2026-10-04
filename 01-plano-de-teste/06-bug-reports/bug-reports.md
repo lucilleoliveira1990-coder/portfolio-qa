@@ -32,6 +32,9 @@ Resultado obtido: O sistema permitiu o acesso ao site mesmo após informar uma s
 
 Evidência<img width="646" height="329" alt="Sem título1" src="https://github.com/user-attachments/assets/a30aeec3-7f48-4c7c-ae5c-9d99f1f89ef8" />
 
+<img width="584" height="393" alt="Sem título2" src="https://github.com/user-attachments/assets/ef79e4af-2d09-48b2-af24-d03091697367" />
+
+
 
 Impacto: O comportamento permite que um usuário seja autenticado mesmo utilizando uma senha incorreta, comprometendo a segurança e a confiabilidade do processo de autenticação.
 
