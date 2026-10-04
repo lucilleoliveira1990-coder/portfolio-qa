@@ -123,9 +123,9 @@ Dados: lucille2206@gmail.com
 
 Passos:
 
-Informar o e-mail inválido.
-Informar uma senha.
-Clicar em Login.
+1. Informar o e-mail inválido.
+2. Informar uma senha.
+3. Clicar em Login.
 
 Resultado esperado: O sistema deve rejeitar o formato inválido.
 
