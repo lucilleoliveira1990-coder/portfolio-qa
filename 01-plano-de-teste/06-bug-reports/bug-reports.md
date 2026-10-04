@@ -40,9 +40,10 @@ Impacto: O comportamento permite que um usuário seja autenticado mesmo utilizan
 Observação: O comportamento deve ser analisado para verificar se a autenticação está validando corretamente a senha informada.
 
 
-## BUG-002 — Login com e-mail inválido
 
-Título: Login permitido com e-mail inválido
+## BUG-002 — E-mail não cadastrado
+
+Título: Login permitido com e-mail não cadastrado
 
 ID: BUG-LOGIN-002
 
@@ -58,23 +59,25 @@ Tipo de teste: Teste funcional
 
 Status: Aberto
 
-Pré-condição: Usuário deve possuir acesso à página de Login.
+Pré-condição: Possuir acesso à página de login e utilizar um e-mail que não esteja cadastrado no sistema.
 
 Passos para reprodução
 
 1. Acessar a página de login.
-2. Informar um e-mail em formato inválido.
+2. Informar um e-mail que não esteja cadastrado.
 3. Informar uma senha.
 4. Clicar no botão Login.
 
-Resultado esperado: O sistema deve validar o formato do e-mail e impedir o login quando o endereço informado for inválido.
+Resultado esperado: O sistema deve verificar se o e-mail está cadastrado e impedir o acesso quando o usuário não estiver registrado, apresentando uma mensagem de erro adequada.
 
-Resultado obtido: O sistema permitiu o acesso ao site mesmo com o e-mail informado em formato inválido.
+Resultado obtido: O sistema permitiu o acesso ao site mesmo utilizando um e-mail não cadastrado.
 
 Evidência
 
-<img width="664" height="351" alt="Sem título3" src="https://github.com/user-attachments/assets/8ad2e18c-a541-42be-87e7-256b807e1761" />
+<img width="664" height="351" alt="Sem título3" src="https://github.com/user-attachments/assets/311abb3a-a835-477f-9e0c-680779bb63b6" />
 
-<img width="608" height="382" alt="Sem título4" src="https://github.com/user-attachments/assets/b27ae173-e2d3-4cea-9374-0ed609ff6bf7" />
+<img width="608" height="382" alt="Sem título4" src="https://github.com/user-attachments/assets/5371c163-9346-4492-9592-8d3c4ef0b5ec" />
 
+Impacto: O comportamento permite o acesso de um usuário com e-mail não cadastrado, indicando uma possível falha no processo de autenticação e comprometendo a segurança do sistema.
 
+Observação: O sistema deve tratar o e-mail conforme a regra de autenticação definida.
