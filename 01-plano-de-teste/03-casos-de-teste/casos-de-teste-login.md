@@ -52,11 +52,9 @@ Passos:
 
 Resultado esperado: O sistema deve impedir o acesso e apresentar mensagem de validação.
 
-Resultado obtido: O sistema permitiu o acesso mesmo após informar um e-mail inválido. O usuário foi autenticado e redirecionado para a área restrita da aplicação.
+Resultado obtido: O sistema rejeitou o login com e-mail inválido e exibiu uma mensagem de erro. O acesso à área restrita não foi permitido.
 
-Status: Falhou.
-
-Observação: O sistema deveria impedir o login e exibir uma mensagem informando que o e-mail ou as credenciais são inválidos.
+Status: Passou.
 
 
 ## CT004 — E-mail vazio
@@ -119,7 +117,7 @@ Status: Falhou.
 
 ## CT008 — E-mail em formato inválido
 
-Dados: lucille2206@gmail.com
+Dados: lucilleoliveira1990gmail.com
 
 Passos:
 
@@ -129,9 +127,9 @@ Passos:
 
 Resultado esperado: O sistema deve rejeitar o formato inválido.
 
-Resultado obtido: O sistema permitiu o envio do formulário mesmo com o e-mail em formato inválido.
+Resultado obtido: O sistema identificou que o e-mail estava em formato inválido, impediu o login e exibiu uma mensagem de erro.
 
-Status: Falhou.
+Status: Passou.
 
 
 ## CT009 — E-mail com letras maiúsculas
