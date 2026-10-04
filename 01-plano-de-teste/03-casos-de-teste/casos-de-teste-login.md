@@ -117,7 +117,24 @@ Resultado obtido: O sistema permitiu o login mesmo utilizando um e-mail que não
 Status: Falhou.
 
 
-## CT008 — E-mail com letras maiúsculas
+## CT008 — E-mail em formato inválido
+
+Dados: lucille2206@gmail.com
+
+Passos:
+
+Informar o e-mail inválido.
+Informar uma senha.
+Clicar em Login.
+
+Resultado esperado: O sistema deve rejeitar o formato inválido.
+
+Resultado obtido: O sistema permitiu o envio do formulário mesmo com o e-mail em formato inválido.
+
+Status: Falhou.
+
+
+## CT009 — E-mail com letras maiúsculas
 
 Passos:
 
@@ -132,7 +149,38 @@ Resultado obtido: O sistema aceitou o e-mail com letra maiúscula e realizou o l
 Status: Passou.
 
 
-## CT009 — Botão Login
+## CT010 — Campos obrigatórios
+
+Objetivo: Verificar se os campos obrigatórios são devidamente identificados.
+
+Passos:
+
+1. Acessar a tela de Login.
+2. Deixar os campos vazios.
+3. Tentar realizar o login.
+
+Resultado esperado: O sistema deve informar os campos obrigatórios que precisam ser preenchidos.
+
+Resultado obtido: O sistema impediu o login e solicitou o preenchimento dos campos obrigatórios.
+
+Status: Passou.
+
+
+## CT011 — Mensagem de erro
+
+Passos:
+
+1. Informar credenciais inválidas.
+2. Clicar em Login.
+
+Resultado esperado: O sistema deve apresentar mensagem clara informando que não foi possível realizar a autenticação.
+
+Resultado obtido: O sistema apresentou uma mensagem de erro, porém o acesso ao site foi realizado normalmente.
+
+Status: Falhou.
+
+
+## CT012 — Botão Login
 
 Passos:
 
@@ -147,7 +195,7 @@ Resultado obtido: Ao clicar no botão "Entrar", o sistema respondeu à ação do
 Status: Passou.
 
 
-## CT010 — Acesso após login
+## CT013 — Acesso após login
 
 Passos:
 
