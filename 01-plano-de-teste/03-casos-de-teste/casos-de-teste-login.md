@@ -166,16 +166,18 @@ Status: Passou.
 
 ## CT011 — Mensagem de erro
 
+Cenário: Verificar a apresentação de mensagem de erro ao tentar realizar login com dados inválidos.
+
 Passos:
 
 1. Informar credenciais inválidas.
 2. Clicar em Login.
 
-Resultado esperado: O sistema deve apresentar mensagem clara informando que não foi possível realizar a autenticação.
+Resultado esperado: O sistema deve impedir o acesso e apresentar uma mensagem de erro informando que as credenciais são inválidas ou que não foi possível realizar a autenticação.
 
-Resultado obtido: O sistema apresentou uma mensagem de erro, porém o acesso ao site foi realizado normalmente.
+Resultado obtido: O sistema apresentou uma mensagem de erro após a tentativa de login com dados inválidos e não permitiu o acesso à área autenticada.
 
-Status: Falhou.
+Status: Passou.
 
 
 ## CT012 — Botão Login
