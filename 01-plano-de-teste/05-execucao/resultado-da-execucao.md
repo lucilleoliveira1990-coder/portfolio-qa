@@ -23,7 +23,10 @@
 | CT005 | E-mail vazio               | ✅              | ☑️      |
 | CT006 | Senha vazia                | ✅              | ☑️      |
 | CT007 | Campos vazios              | ✅              | ☑️      |
-| CT008 | E-mail com maiúsculas      | ✅              | ☑️      |
+| CT008 | Formato de e-mail inválido | ❌              | ☑️      |
+| CT009 | E-mail com maiúsculas      | ✅              | ☑️      |
+| CT010 | Campos obrigatórios        | ✅              | ☑️      |
+| CT011 | Mensagem de erro           | ❌              | ☑️      |
 | CT009 | Botão Login                | ✅              | ☑️      |
 | CT010 | Acesso após login          | ✅              | ☑️      |
 
