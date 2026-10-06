@@ -59,6 +59,8 @@ Status: Passou.
 
 ## CT004 — E-mail vazio
 
+Objetivo: Validar que o sistema não permita login com o campo de e-mail vazio.
+
 Passos:
 1. Acessar a tela de Login.
 2. Não preencher o campo e-mail.
@@ -73,6 +75,8 @@ Status: Passou.
 
 
 ## CT005 — Senha vazia
+
+Objetivo: Validar que o sistema não permita login com o campo de senha vazio.
 
 Passos:
 1. Acessar a tela de Login.
@@ -89,6 +93,8 @@ Status: Passou.
 
 ## CT006 — E-mail e senha vazios
 
+Objetivo: Validar que o sistema não permita login com os campos de e-mail e senha vazios.
+
 Passos:
 1. Acessar a tela de Login.
 2. Não preencher nenhum campo.
@@ -103,6 +109,8 @@ Status: Passou.
 
 ## CT007 — E-mail não cadastrado
 
+Objetivo: Validar que o sistema não permita login com e-mail não cadastrado.
+
 Passos:
 1. Informar um e-mail que não está cadastrado.
 2. Informar uma senha.
@@ -116,6 +124,8 @@ Status: Falhou.
 
 
 ## CT008 — E-mail em formato inválido
+
+Objetivo: Validar que o sistema não permita login com e-mail em formato inválido.
 
 Dados: lucilleoliveira1990gmail.com
 
@@ -133,6 +143,8 @@ Status: Passou.
 
 
 ## CT009 — E-mail com letras maiúsculas
+
+Objetivo: Validar o comportamento do sistema ao realizar login com e-mail contendo letras maiúsculas.
 
 Passos:
 
@@ -182,6 +194,8 @@ Status: Passou.
 
 ## CT012 — Botão Login
 
+Objetivo: Validar o funcionamento do botão Login e o processamento das informações inseridas pelo usuário.
+
 Passos:
 
 1. Acessar a página de Login.
@@ -196,6 +210,8 @@ Status: Passou.
 
 
 ## CT013 — Acesso após login
+
+Objetivo: Validar o acesso do usuário após um login realizado com credenciais válidas.
 
 Passos:
 
